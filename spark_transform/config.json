@@ -1,0 +1,21 @@
+{
+    "postgresql":{
+        "host":"172.21.128.1",
+        "db":"digitalskola",
+        "user":"postgres",
+        "pwd":"admin",
+        "port":5432
+    },
+    
+    "warehouse":{
+        "host":"172.21.128.1",
+        "db":"dwh_digitalskola",
+        "user":"postgres",
+        "pwd":"admin",
+        "port":5432
+    },
+
+    "spark":{
+        "ip":"spark://BUKANHACKER.localdomain:7077"
+    }
+}
